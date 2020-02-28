@@ -1,0 +1,1 @@
+{"version":3,"sources":["styles.scss"],"names":[],"mappings":"AACA,GACI","file":"styles.css","sourceRoot":"..\\css","sourcesContent":["$color: red;\r\nh1 {\r\n    color: $color;\r\n}"]}

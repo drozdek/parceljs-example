@@ -1,0 +1,1 @@
+{"version":3,"sources":["../js/mod1.js"],"names":["m1","d"],"mappings":";AAKeA,aAAAA,OAAAA,eAAAA,QAAAA,aAAAA,CAAAA,OAAAA,IAAAA,QAAAA,aAAAA,EALf,IAAMA,EAAK,WAEAC,OADC,IAIGD,EAAAA,EAAAA,QAAAA,QAAAA","file":"mod1.js","sourceRoot":"..\\js","sourcesContent":["const m1 = () => {\r\n    let d = 10;\r\n    return d\r\n}\r\n\r\nexport default m1;"]}
