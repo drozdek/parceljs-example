@@ -1,4 +1,13 @@
-$color: red;
+$color: rgba(255, 0, 0, 1);
+
 h1 {
     color: $color;
-}
+};
+
+.bodyclass {
+    background: rgba(255,255,0);
+};
+
+body {
+    background-color: limegreen;
+};

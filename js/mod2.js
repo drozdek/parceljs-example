@@ -6,7 +6,7 @@ export function printName(name) {
 };
 
 export const jq = () => {
-    let b = $('body').attr('class', 'boduyclass');
+    let b = $('body').attr('class', 'bodyclass');
     return b
 }
 

@@ -1,0 +1,1 @@
+{"version":3,"sources":["styles.scss"],"names":[],"mappings":"AAEA,GACI,UAGJ,WACI,gBAGJ,KACI","file":"styles.css","sourceRoot":"..\\css","sourcesContent":["$color: rgba(255, 0, 0, 1);\r\n\r\nh1 {\r\n    color: $color;\r\n};\r\n\r\n.bodyclass {\r\n    background: rgba(255,255,0);\r\n};\r\n\r\nbody {\r\n    background-color: limegreen;\r\n};"]}

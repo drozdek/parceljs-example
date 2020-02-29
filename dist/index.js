@@ -9,7 +9,7 @@ var e,t=arguments[3],n=require("process");!function(e,t){"use strict";"object"==
 },{"process":"jtqQ"}],"L7lC":[function(require,module,exports) {
 "use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=void 0;var e=function(){return 10},t=e;exports.default=t;
 },{}],"Czob":[function(require,module,exports) {
-"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.printName=o,exports.my=exports.jq=void 0;var e=t(require("jquery")),r=t(require("./mod1"));function t(e){return e&&e.__esModule?e:{default:e}}function o(e){return"Hello Mr. ".concat(e," ")}var u=function(){return(0,e.default)("body").attr("class","boduyclass")};exports.jq=u;var n=function(e){return(0,r.default)()+55};exports.my=n;
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.printName=o,exports.my=exports.jq=void 0;var e=t(require("jquery")),r=t(require("./mod1"));function t(e){return e&&e.__esModule?e:{default:e}}function o(e){return"Hello Mr. ".concat(e," ")}var u=function(){return(0,e.default)("body").attr("class","bodyclass")};exports.jq=u;var n=function(e){return(0,r.default)()+55};exports.my=n;
 },{"jquery":"juYr","./mod1":"L7lC"}],"Focm":[function(require,module,exports) {
 "use strict";var o=require("./mod2"),e="Rafal",a="<h1>".concat((0,o.printName)(e),"</h1>\n              <p>result is: ").concat((0,o.my)(),'</p>\n              <img src="https://www.google.com/logos/doodles/2020/leap-year-2020-6753651837108301-law.gif" />\n            ');(0,o.jq)(),document.body.innerHTML=a;
 },{"./mod2":"Czob"}]},{},["Focm"], null)
