@@ -18,10 +18,25 @@
     "@babel/core": "^7.8.4",
     "@babel/preset-react": "^7.8.3",
     "cssnano": "^4.1.10",
+    "parcel-plugin-structurize": "^1.1.6",
     "sass": "^1.26.1"
   },
   "dependencies": {
     "jest": "^25.1.0",
     "jquery": "^3.4.1"
-  }
+  },
+  "parcel-plugin-structurize": {
+    "scripts": {
+        "match": "*.{js,js.map}",
+        "folder": "js"
+    },
+    "styles": {
+        "match": "*.{css,css.map}",
+        "folder": "css"
+    },
+    "assets": {
+        "match": "*.{png,svg,jpg,jpg2,jpeg,gif,bmp,webm}",
+        "folder": "assets"
+    }
+}  
 }
