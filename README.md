@@ -27,7 +27,9 @@ To project run or build, simply edit package.json file and add:
 Then, you will be able to run in development mode:
 
     yarn dev
-or
+    
+or    
+    
     npm run dev
 
 To run in production mode
